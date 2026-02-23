@@ -89,7 +89,7 @@ function initProjects() {
       link: "pages/projects/wheelleg.html"
     },
     { 
-      img: "assets/images/ongoing-temp.jpg",
+      img: "assets/images/ongoing-temp.png",
       titleKey: "projects.ongoing.title", 
       descKey: "projects.ongoing.desc",
       tagsKey: "projects.ongoing.tags",
