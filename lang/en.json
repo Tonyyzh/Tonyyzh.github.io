@@ -28,12 +28,12 @@
       "tags": ["Robotics", "Autonomous Navigation", "Computer Vision"]
     },
     "infantry": {
-      "title": "RoboMaster 2022 swerve Infantry Robot",
+      "title": "RoboMaster 2022 Swerve Infantry Robot",
       "desc": "Designed and built a swerve drive infantry robot with full carbon fiber structure with in-wheel motor, weight only 17 KG(include battery and ref system)",
       "tags": ["Robotics", "Combat Robotics", "Mechanical Design"]
     },
     "wheelleg": {
-      "title": "RoboMaster: Wheelleg Robot",
+      "title": "Wheelleg Balance Robot",
       "desc": "UIUC ECE Milestone \"Best overall project\". Capable of carrying over 3kg of payload, with STM32F1 and BMI088 IMU, integrated DCDC system with full circuit protection.",
       "tags": ["Robotics", "Versatile Mobility", "Mechanical Design"]
     },
