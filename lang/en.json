@@ -11,26 +11,36 @@
   "intro": {
     "avatarAlt": "Yuan Zehao's avatar",
     "title": "Hi, I'm Yuan Zehao",
-    "desc": "MS ECE @ UCLA • Robotics & Hardware Engineer<br>Focus: Mechanical design, embedded/control, and robotic systems integration.<br>Email: YOUR_EMAIL"
+    "desc": "MS ECE @ UCLA • Electrical Engineering<br>Focus: Mechanical design, Analog IC design and robotic systems integration.<br>Email: zehaoyuan2002@gmail.com"
   },
   "projects": {
     "title": "Selected Projects",
     "imgAlt": "Project image",
     "viewDetail": "View Details",
-    "item1": {
-      "title": "RoboMaster: Hero Robot System",
-      "desc": "Led/owned key mechanical subsystems and integration for a RoboMaster Hero-class robot. Worked across design, manufacturing, assembly, and iteration to deliver competition-ready performance under tight schedules.",
+    "hero": {
+      "title": "RoboMaster 2024 Hero Robot",
+      "desc": "Full mechanical architecture and system integration for a RoboMaster Hero-class catapult robot. Designed high-stiffness structure and rapid-maintenance modular layout for high-intensity competition scenarios.",
       "tags": ["Robotics", "Mechanical Design", "System Integration", "Rapid Iteration"]
     },
-    "item2": {
-      "title": "Humanoid / Mobile Manipulation Hardware",
-      "desc": "Designed and iterated on humanoid / mobile manipulation hardware components (structures, mounting, packaging). Emphasized DFM/DFA, maintainability, and robustness for real-world testing.",
-      "tags": ["Humanoid Robotics", "DFM/DFA", "Mechanism Design", "Prototyping"]
+    "drone": {
+      "title": "RoboMaster 2026 Drone",
+      "desc": "Designed and built a RoboMaster drone platform with dimention 800*800mm and weight only 9KG(include battery and ref system) with 750 projectile capacity.",
+      "tags": ["Robotics", "Autonomous Navigation", "Computer Vision"]
     },
-    "item3": {
-      "title": "Mixed-Signal & Power Projects",
-      "desc": "Course/project work across mixed-signal IC and power electronics (e.g., PLL modeling/design, DC-DC system-level analysis). Focused on engineering rigor: models, trade-offs, and validation.",
-      "tags": ["Analog/Mixed-Signal", "PLL", "Power Electronics", "Modeling"]
+    "infantry": {
+      "title": "RoboMaster 2022 swerve Infantry Robot",
+      "desc": "Designed and built a swerve drive infantry robot with full carbon fiber structure with in-wheel motor, weight only 17 KG(include battery and ref system)",
+      "tags": ["Robotics", "Combat Robotics", "Mechanical Design"]
+    },
+    "wheelleg": {
+      "title": "RoboMaster: Wheelleg Robot",
+      "desc": "Designed and built a RoboMaster wheelleg robot platform for versatile mobility.",
+      "tags": ["Robotics", "Versatile Mobility", "Mechanical Design"]
+    },
+    "ongoing": {
+      "title": "Ongoing Projects",
+      "desc": "Projects currently in progress or under development.",
+      "tags": ["Ongoing", "Development"]
     }
   },
   "project1": {
@@ -81,7 +91,7 @@
     "event1": {
       "date": "2026",
       "title": "MS ECE @ UCLA",
-      "desc": "Graduate study focused on robotics, mixed-signal systems, and engineering practice."
+      "desc": "Graduate study focused on CMOS PLL design and tape out, ADC/DAC, DCDC converter and engineering practice."
     },
     "event2": {
       "date": "2025–2026",

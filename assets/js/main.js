@@ -55,33 +55,43 @@ function initLangToggle() {
 
 // ================= 1. 精选项目渲染 =================
 function initProjects() {
-  const grid = document.querySelector('.projects-grid');
-  if (!grid) return;
-  grid.innerHTML = ''; // 【关键】清空旧内容
-
-  const projects = [
-    { 
-      img: "assets/images/Portfolio-01.png", 
-      titleKey: "projects.item1.title", 
-      descKey: "projects.item1.desc",
-      tagsKey: "projects.item1.tags", // Added tags key
-      link: "pages/projects/project1.html"
-    },
-    { 
-      img: "assets/images/Portfolio-02.png", 
-      titleKey: "projects.item2.title", 
-      descKey: "projects.item2.desc", 
-      tagsKey: "projects.item2.tags", // Added tags key
-      link: "pages/projects/project2.html"
-    },
-    { 
-      img: "assets/images/Portfolio-03.png", 
-      titleKey: "projects.item3.title", 
-      descKey: "projects.item3.desc", 
-      tagsKey: "projects.item3.tags", // Added tags key
-      link: "pages/projects/project3.html"
-    }
-  ];
+const projects = [
+  { 
+    img: "assets/images/hero.jpg",
+    titleKey: "projects.hero.title", 
+    descKey: "projects.hero.desc",
+    tagsKey: "projects.hero.tags",
+    link: "pages/projects/hero.html"
+  },
+  { 
+    img: "assets/images/Drone2025.jpg",
+    titleKey: "projects.drone.title", 
+    descKey: "projects.drone.desc",
+    tagsKey: "projects.drone.tags",
+    link: "pages/projects/drone.html"
+  },
+  { 
+    img: "assets/images/standard2022.jpg",
+    titleKey: "projects.infantry.title", 
+    descKey: "projects.infantry.desc",
+    tagsKey: "projects.infantry.tags",
+    link: "pages/projects/infantry.html"
+  },
+  { 
+    img: "assets/images/Portfolio-03.png",
+    titleKey: "projects.wheelleg.title", 
+    descKey: "projects.wheelleg.desc",
+    tagsKey: "projects.wheelleg.tags",
+    link: "pages/projects/wheelleg.html"
+  },
+  { 
+    img: "assets/images/hero.jpg",
+    titleKey: "projects.ongoing.title", 
+    descKey: "projects.ongoing.desc",
+    tagsKey: "projects.ongoing.tags",
+    link: "#"
+  }
+];
 
   projects.forEach(p => {
     // 处理 Tags
