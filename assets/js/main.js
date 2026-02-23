@@ -238,12 +238,15 @@ function initContactLinks() {
   if (!container) return;
   container.innerHTML = '';
   
-  const contacts = [
-    { icon: "fab fa-bilibili", key: "contact.bilibili", link: "https://space.bilibili.com/385516781/upload/video" },
-    { icon: "fab fa-github", key: "contact.github", link: "https://github.com/Lain-Ego0" },
-    { icon: "fab fa-twitter", key: "contact.twitter", link: "https://x.com/Lain_Ego0" },
-    { icon: "fab fa-zhihu", key: "contact.zhihu", link: "https://www.zhihu.com/people/hua-99-50-21" }
-  ];
+const contacts = [
+  { icon: "fab fa-linkedin", key: "contact.linkedin", link: "https://www.linkedin.com/in/zehao-yuan-02960b29b/" },
+  { icon: "fab fa-github", key: "contact.github", link: "https://github.com/Tonyyzh" },
+  { icon: "fas fa-envelope", key: "contact.email", link: "mailto:zehaoyuan2002@gmail.com" },
+  { icon: "fas fa-file-pdf", key: "contact.resume", link: "assets/files/Yuan_Zehao_Resume.pdf" }
+  // 可选：bilibili/zhihu/x
+  // { icon: "fab fa-bilibili", key: "contact.bilibili", link: "https://space.bilibili.com/xxxxx" },
+  // { icon: "fab fa-x-twitter", key: "contact.twitter", link: "https://x.com/xxxx" }
+];
   
   contacts.forEach(c => {
     const item = document.createElement('div');
