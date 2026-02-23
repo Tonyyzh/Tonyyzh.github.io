@@ -19,12 +19,12 @@
     "viewDetail": "View Details",
     "hero": {
       "title": "RoboMaster 2024 Hero Robot",
-      "desc": "Full mechanical architecture and system integration for a RoboMaster Hero-class catapult robot. Designed high-stiffness structure and rapid-maintenance modular layout for high-intensity competition scenarios.",
+      "desc": "High-precision launch system, capable of launching 42 mm golf balls to a 20 × 20 cm target at 25 m with a firing rate of 2 Hz. Features an elevating sighting module and integrated laser rangefinder for real-time ballistic computation and compensation",
       "tags": ["Robotics", "Mechanical Design", "System Integration", "Rapid Iteration"]
     },
     "drone": {
       "title": "RoboMaster 2026 Drone",
-      "desc": "Designed and built a RoboMaster drone platform with dimention 800*800mm and weight only 9KG(include battery and ref system) with 750 projectile capacity.",
+      "desc": "Designed a center-plate-free RoboMaster drone,can delivering full 750-round payload at only 25% size and 75% weight vs. 2025 university platforms average.",
       "tags": ["Robotics", "Autonomous Navigation", "Computer Vision"]
     },
     "infantry": {
@@ -34,7 +34,7 @@
     },
     "wheelleg": {
       "title": "RoboMaster: Wheelleg Robot",
-      "desc": "Designed and built a RoboMaster wheelleg robot platform for versatile mobility.",
+      "desc": "UIUC ECE Milestone \"Best overall project\". Capable of carrying over 3kg of payload, with STM32F1 and BMI088 IMU, integrated DCDC system with full circuit protection.",
       "tags": ["Robotics", "Versatile Mobility", "Mechanical Design"]
     },
     "ongoing": {
