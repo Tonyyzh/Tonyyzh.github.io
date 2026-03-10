@@ -87,32 +87,49 @@
     }
   },
   "timeline": {
-    "title": "Timeline",
-    "event1": {
-      "date": "2026",
-      "title": "MS ECE @ UCLA",
-      "desc": "Graduate study focused on CMOS PLL design and tape out, ADC/DAC, DCDC converter and engineering practice."
-    },
-    "event2": {
-      "date": "2025–2026",
-      "title": "Robotics Hardware Work (Humanoid / Mobile Manipulation)",
-      "desc": "Mechanical/hardware development, iteration, and integration testing."
-    },
-    "event3": {
-      "date": "2024–2025",
-      "title": "RoboMaster Competition Robotics",
-      "desc": "Mechanical design, integration, and iterative build cycles for competition robots."
-    },
-    "event4": {
-      "date": "2023–2024",
-      "title": "Engineering Projects & Coursework",
-      "desc": "Projects spanning embedded control, power electronics, and mixed-signal topics."
-    },
-    "event5": {
-      "date": "2017–2019",
-      "title": "FRC Robotics (Iron Maple 5516)",
-      "desc": "Team leadership and hands-on build experience across mechanical design and competition preparation."
-    }
+ "title": "Timeline",
+
+  "event1": {
+    "date": "2025 – 2026",
+    "title": "M.S. Electrical Engineering · UCLA",
+    "desc": "Graduate study in Analog / Mixed-Signal IC and Power Electronics. Focus areas include CMOS PLL design and tape-out, ADC/DAC architecture, multi-phase GaN power converters, and robotics / mechatronics system integration."
+  },
+
+  "event2": {
+    "date": "Jul 2025 – Sep 2025",
+    "title": "Hardware Engineer Intern · MATRIX Robotics",
+    "desc": "Worked on mechanical design and prototyping for robotic systems, supporting mechanism development, system integration, and iterative hardware improvement."
+  },
+
+  "event3": {
+    "date": "2023 – 2024",
+    "title": "RoboMaster Team Captain · iRM-Illini Robotics",
+    "desc": "Led the RoboMaster competition team and coordinated mechanical design, manufacturing, and integration for multiple competition robots. Managed cross-team collaboration and system integration."
+  },
+
+  "event4": {
+    "date": "2022 – 2023",
+    "title": "Mechanical Team Lead · RoboMaster",
+    "desc": "Oversaw robot mechanical architecture, fabrication workflows, and subsystem integration. Responsible for manufacturability and rapid iteration during competition build cycles."
+  },
+
+  "event5": {
+    "date": "2021 – 2022",
+    "title": "Robotics System Development",
+    "desc": "Collaborated with ZJUI RoboMaster team. Designed UAV and Sentry Robot mechanical systems and supported system integration."
+  },
+
+  "event6": {
+    "date": "2020 – 2024",
+    "title": "B.S. Electrical Engineering · University of Illinois Urbana-Champaign",
+    "desc": "Undergraduate study focused on Mechanical, power electronics, and robotics engineering."
+  },
+
+  "event7": {
+    "date": "2017 – 2019",
+    "title": "FRC Robotics · Iron Maple 5516",
+    "desc": "Hands-on mechanical design and build experience for FIRST Robotics Competition robots. Early exposure to robotics engineering and team leadership."
+  }
   },
   "skills": {
     "title": "Tech Stack",
@@ -129,6 +146,6 @@
     "resume": "Resume"
   },
   "footer": {
-    "copyright": "© 2026 Yuan Zehao | Personal Homepage"
+    "copyright": "© 2026 Tony Yuan | Personal Homepage"
   }
 }

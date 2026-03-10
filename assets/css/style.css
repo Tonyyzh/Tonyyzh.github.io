@@ -433,6 +433,19 @@ footer {
   background: var(--bg-body);
 }
 
+
+
+.contact-title{
+  font-weight:600;
+  margin:4px 0;
+}
+
+.contact-info{
+  font-size:13px;
+  color:var(--text-muted);
+  word-break:break-all;
+}
+
 /* =========================================
    8. Mobile Responsive
    ========================================= */
@@ -741,3 +754,4 @@ nav {
   width:100%;
   border-radius:10px;
 }
+
