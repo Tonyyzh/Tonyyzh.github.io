@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catapult Hero Robot - Yuan Zehao</title>
+
+  <script>
+    const savedTheme = localStorage.getItem('theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
+
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <a href="../../index.html" class="logo">
+        <span class="logo-text">Tony Yuan</span>
+        <div class="logo-dot"></div>
+      </a>
+
+      <div class="nav-actions">
+        <div class="nav-links">
+          <a href="../../index.html#projects" data-i18n="nav.projects">Projects</a>
+          <a href="../../index.html#timeline" data-i18n="nav.timeline">Timeline</a>
+          <a href="../../index.html#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+
+        <div class="nav-controls">
+          <button class="control-btn lang-toggle" aria-label="Toggle Language">中文</button>
+          <button class="control-btn theme-toggle" aria-label="Toggle Theme">
+            <i class="fas fa-sun sun-icon"></i>
+            <i class="fas fa-moon moon-icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="card" style="padding: 40px;">
+
+        <!-- <div class="image-grid">
+          <img src="../../assets/images/TGL-T.jpg" alt="The Great Lakes team photo 1">
+          <img src="../../assets/images/TGL-G.jpg" alt="The Great Lakes team photo 2">
+          <img src="../../assets/images/TGL-L.jpg" alt="The Great Lakes team photo 3">
+        </div> -->
+
+        <h2 data-i18n="projects.wheelleg.title">RoboMaster 2026 Wheel-Leg Robot</h2>
+        >
+
+        <!-- <div class="image-grid">
+          <img src="../../assets/images/hero-gen2/transparent1.jpg" alt="Hero CAD view 1">
+          <img src="../../assets/images/hero-gen2/transparent2.jpg" alt="Hero CAD view 2">
+          <img src="../../assets/images/hero-gen2/transparent3.jpg" alt="Hero CAD view 3">
+          <img src="../../assets/images/hero-gen2/transparent4.png" alt="Hero CAD view 4">
+          <img src="../../assets/images/hero-gen2/transparent5.png" alt="Hero CAD view 5">
+          <img src="../../assets/images/hero-gen2/transparent6.jpg" alt="Hero CAD view 6">
+        </div> -->
+
+        <div style="max-width: 900px; margin: 30px auto; line-height: 1.8; color: var(--text-muted);">
+          <p data-i18n="projects.wheelleg.desc">
+            This project focuses on the mechanical architecture and system integration of a RoboMaster Wheel-Leg-class robot.
+            I was responsible for key mechanical subsystems, packaging, manufacturability-oriented iteration, and competition-oriented
+            integration, with an emphasis on structural stiffness, maintainability, and fast turnaround during testing and matches.
+          </p>
+        </div>
+
+
+        <h3 style="margin-top:40px;">Wheel-Leg Demo</h3>
+        <video controls class="demo-video">
+          <source src="../../assets/videos/wheelleg.mp4" type="video/mp4">
+        </video>
+
+        <div class="image-grid">
+          <img src="../../assets/images/wheelleg/2022云台.jpg" alt="wheelleg photo 1">
+          <img src="../../assets/images/wheelleg/main.jpg" alt="wheelleg photo 2">       
+          <img src="../../assets/images/wheelleg/2022舵轮底部.jpg" alt="wheelleg photo 3">                     
+        </div>
+
+
+
+        <div class="publish-links-wrapper" style="margin-top: 40px;">
+          <div class="publish-links">
+            <a href="#" target="_blank" class="publish-link github">
+              <i class="fab fa-github"></i>
+              <span data-i18n="project1.links.github">Code</span>
+            </a>
+
+            <a href="#" target="_blank" class="publish-link">
+              <i class="fas fa-file-lines"></i>
+              <span data-i18n="project1.links.techDoc">Documentation</span>
+            </a>
+
+            <a href="#" target="_blank" class="publish-link bilibili">
+              <i class="fas fa-video"></i>
+              <span data-i18n="project1.links.demo">Demo</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer data-i18n="footer.copyright">© 2026 Yuan Zehao | Personal Homepage</footer>
+
+  <script src="../../assets/js/i18n.js"></script>
+  <script src="../../assets/js/main.js"></script>
+</body>
+</html>
