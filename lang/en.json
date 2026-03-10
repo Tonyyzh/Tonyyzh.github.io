@@ -43,9 +43,9 @@
       "tags": ["Ongoing", "Development"]
     }
   },
-  "project1": {
+  "hero-gen2": {
     "title": "RoboMaster: Hero Robot System",
-    "desc": "A competition-grade robot platform emphasizing reliability, serviceability, and fast iteration.<br><br>My contributions centered on mechanical subsystem design, integration, and manufacturability. I worked closely with cross-functional teammates to ensure mechanisms, wiring/packaging, and assembly workflows supported rapid debugging and match-day maintenance.",
+    "desc": "High-precision launch system, capable of launching 42 mm golf balls to a 20 × 20 cm target at 25 m with a firing rate of 2 Hz. Features an elevating sighting module and integrated laser rangefinder for real-time ballistic computation and compensation",
     "links": {
       "github": "Code",
       "techDoc": "Docs",

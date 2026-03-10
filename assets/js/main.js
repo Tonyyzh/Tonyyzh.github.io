@@ -61,14 +61,14 @@ function initProjects() {
 
   const projects = [
     { 
-      img: "assets/images/hero.jpg",
-      titleKey: "projects.hero.title", 
-      descKey: "projects.hero.desc",
-      tagsKey: "projects.hero.tags",
-      link: "pages/projects/hero.html"
+      img: "assets/images/Hero-gen2/hero.jpg",
+      titleKey: "hero-gen2.title", 
+      descKey: "hero-gen2.desc",
+      tagsKey: "hero-gen2.tags",
+      link: "pages/projects/hero-gen2.html"
     },
     { 
-      img: "assets/images/Drone2025.jpg",
+      img: "assets/images/drone2025/Drone2025.jpg",
       titleKey: "projects.drone.title", 
       descKey: "projects.drone.desc",
       tagsKey: "projects.drone.tags",
