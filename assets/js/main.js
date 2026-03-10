@@ -75,7 +75,7 @@ function initProjects() {
       link: "pages/projects/drone.html"
     },
     { 
-      img: "assets/images/standard2022wide.jpg",
+      img: "assets/images/infantry/infantry outdoor.JPG",
       titleKey: "projects.infantry.title", 
       descKey: "projects.infantry.desc",
       tagsKey: "projects.infantry.tags",
