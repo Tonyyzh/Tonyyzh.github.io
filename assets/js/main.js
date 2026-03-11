@@ -94,6 +94,13 @@ function initProjects() {
       descKey: "projects.ongoing.desc",
       tagsKey: "projects.ongoing.tags",
       link: "#"
+    },
+    { 
+      img: "assets/images/gallery/2024 UC/TGL_FLAG.jpg",
+      titleKey: "projects.gallery.title", 
+      descKey: "projects.gallery.desc",
+      tagsKey: "projects.gallery.tags",
+      link: "pages/projects/gallery.html"
     }
   ];
 

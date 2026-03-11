@@ -41,6 +41,11 @@
       "title": "Ongoing Projects",
       "desc": "Projects currently in progress or under development.",
       "tags": ["Ongoing", "Development"]
+    },
+    "gallery": {
+      "title": "Project Gallery",
+      "desc": "A collection of project images and highlights.",
+      "tags": ["Gallery", "Showcase"]
     }
   },
   "hero-gen2": {
@@ -87,7 +92,7 @@
     }
   },
   "timeline": {
- "title": "Timeline",
+ "title": "Experience & Education",
 
   "event1": {
     "date": "2025 – 2026",
