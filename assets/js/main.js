@@ -59,70 +59,53 @@ function initProjects() {
   if (!grid) return;
   grid.innerHTML = '';
 
-  const projects = [
-    { 
-      img: "assets/images/hero-gen2/hero.jpg",
-      titleKey: "hero-gen2.title", 
-      descKey: "hero-gen2.desc",
-      tagsKey: "hero-gen2.tags",
-      link: "pages/projects/hero-gen2.html"
-    },
-    { 
-      img: "assets/images/drone2025/Drone2025.jpg",
-      titleKey: "projects.drone.title", 
-      descKey: "projects.drone.desc",
-      tagsKey: "projects.drone.tags",
-      link: "pages/projects/drone.html"
-    },
-    { 
-      img: "assets/images/infantry/infantry outdoor.JPG",
-      titleKey: "projects.infantry.title", 
-      descKey: "projects.infantry.desc",
-      tagsKey: "projects.infantry.tags",
-      link: "pages/projects/infantry.html"
-    },
-    { 
-      img: "assets/images/wheelleg/wheelleg.jpg",
-      titleKey: "projects.wheelleg.title", 
-      descKey: "projects.wheelleg.desc",
-      tagsKey: "projects.wheelleg.tags",
-      link: "pages/projects/wheelleg.html"
-    },
-    { 
-      img: "assets/images/ongoing-temp.png",
-      titleKey: "projects.ongoing.title", 
-      descKey: "projects.ongoing.desc",
-      tagsKey: "projects.ongoing.tags",
-      link: "#"
-    },
-    { 
-      img: "assets/images/gallery/2024 UC/TGL_FLAG.jpg",
-      titleKey: "projects.gallery.title", 
-      descKey: "projects.gallery.desc",
-      tagsKey: "projects.gallery.tags",
-      link: "pages/projects/gallery.html"
-    }
-  ];
+  const projectSection = window.i18n.get('projects');
+  if (!projectSection || !Array.isArray(projectSection.items)) {
+    console.error('[Projects] projects.items not found in i18n data');
+    return;
+  }
 
-  projects.forEach(p => {
-    const tags = window.i18n.get(p.tagsKey);
-    const tagsHtml = Array.isArray(tags) 
-      ? `<div class="project-tags">${tags.map(t => `<span class="project-tag">${t}</span>`).join('')}</div>`
+  const imageMap = {
+    hero: "assets/images/hero-gen2/hero.jpg",
+    drone: "assets/images/drone2025/Drone2025.jpg",
+    infantry: "assets/images/infantry/infantry outdoor.JPG",
+    wheelleg: "assets/images/wheelleg/wheelleg.jpg",
+    ongoing: "assets/images/ongoing-temp.png",
+    gallery: "assets/images/gallery/2024 UC/TGL_FLAG.jpg"
+  };
+
+  const linkMap = {
+    hero: "pages/projects/hero-gen2.html",
+    drone: "pages/projects/drone.html",
+    infantry: "pages/projects/infantry.html",
+    wheelleg: "pages/projects/wheelleg.html",
+    ongoing: "#",
+    gallery: "pages/projects/gallery.html"
+  };
+
+  projectSection.items.forEach(project => {
+    const tagsHtml = Array.isArray(project.tags)
+      ? `<div class="project-tags">${project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('')}</div>`
       : '';
 
     const card = document.createElement('div');
     card.className = 'card';
+
+    const imgSrc = imageMap[project.id] || "assets/images/ongoing-temp.png";
+    const linkHref = linkMap[project.id] || "#";
+
     card.innerHTML = `
       <div style="overflow:hidden;">
-        <img src="${p.img}" alt="${window.i18n.get('projects.imgAlt')}" class="project-thumbnail">
+        <img src="${imgSrc}" alt="${projectSection.imgAlt || 'Project image'}" class="project-thumbnail">
       </div>
       <div class="project-info">
-        <h3>${window.i18n.get(p.titleKey)}</h3>
-        <p>${window.i18n.get(p.descKey)}</p>
+        <h3>${project.title || ''}</h3>
+        <p>${project.desc || ''}</p>
         ${tagsHtml}
-        <a href="${p.link}" class="project-link">${window.i18n.get('projects.viewDetail')}</a>
+        <a href="${linkHref}" class="project-link">${projectSection.viewDetail || 'View Details'}</a>
       </div>
     `;
+
     grid.appendChild(card);
   });
 }

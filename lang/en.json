@@ -17,79 +17,68 @@
     "title": "Selected Projects",
     "imgAlt": "Project image",
     "viewDetail": "View Details",
-    "hero": {
-      "title": "RoboMaster 2024 Hero Robot",
-      "desc": "High-precision launch system, capable of launching 42 mm golf balls to a 20 × 20 cm target at 25 m with a firing rate of 2 Hz. Features an elevating sighting module and integrated laser rangefinder for real-time ballistic computation and compensation",
-      "tags": ["Robotics", "Mechanical Design", "System Integration", "Rapid Iteration"]
-    },
-    "drone": {
-      "title": "RoboMaster 2026 Drone",
-      "desc": "Designed a center-plate-free RoboMaster drone,can delivering full 750-round payload at only 25% size and 75% weight vs. 2025 university platforms average.",
-      "tags": ["Robotics", "Autonomous Navigation", "Computer Vision"]
-    },
-    "infantry": {
-      "title": "RoboMaster 2022 Swerve Infantry Robot",
-      "desc": "Designed and built a swerve drive infantry robot with full carbon fiber structure with in-wheel motor, weight only 17 KG(include battery and ref system)",
-      "tags": ["Robotics", "Combat Robotics", "Mechanical Design"]
-    },
-    "wheelleg": {
-      "title": "Wheelleg Balance Robot",
-      "desc": "UIUC ECE Milestone \"Best overall project\". Capable of carrying over 3kg of payload, with STM32F1 and BMI088 IMU, integrated DCDC system with full circuit protection.",
-      "tags": ["Robotics", "Versatile Mobility", "Mechanical Design"]
-    },
-    "ongoing": {
-      "title": "Ongoing Projects",
-      "desc": "Projects currently in progress or under development.",
-      "tags": ["Ongoing", "Development"]
-    },
-    "gallery": {
-      "title": "Project Gallery",
-      "desc": "A collection of project images and highlights.",
-      "tags": ["Gallery", "Showcase"]
-    }
-  },
-  "hero-gen2": {
-    "title": "RoboMaster: Hero Robot",
-    "desc": "High-precision launch system, capable of launching 42 mm golf balls to a 20 × 20 cm target at 25 m with a firing rate of 2 Hz. Features an elevating sighting module and integrated laser rangefinder for real-time ballistic computation and compensation",
-    "links": {
-      "github": "Code",
-      "techDoc": "Docs",
-      "demo": "Demo"
-    }
-  },
-  "project2": {
-    "title": "Humanoid / Mobile Manipulation Hardware",
-    "desc": "Hardware development for humanoid/mobile manipulation platforms.<br><br>Work included structural design, packaging, and iteration based on test feedback. Key priorities: robustness, maintainability, and efficient assembly (DFM/DFA)."
-  },
-  "project3": {
-    "title": "Mixed-Signal & Power Projects",
-    "desc": "A collection of mixed-signal IC and power-electronics related projects.<br><br>Typical workflow: define requirements → build analytical/simulation models → explore trade-offs → validate with results and documentation."
-  },
-  "projects1": {
-    "imgAlt1": "Project Detail View",
-    "imgAlt2": "Detail View 1",
-    "imgAlt3": "Detail View 2",
-    "imgAlt4": "Detail View 3"
-  },
-  "opensource": {
-    "title": "Open Source & Writing",
-    "btnCode": "Code",
-    "btnDoc": "Docs",
-    "item1": {
-      "title": "GitHub Projects",
-      "desc": "Selected repositories and engineering notes. (Update links/tags to match your public work.)",
-      "tags": ["GitHub", "Robotics", "Hardware"]
-    },
-    "item2": {
-      "title": "Course/Project Notes",
-      "desc": "Notes and documentation for coursework and engineering projects.",
-      "tags": ["Documentation", "Learning", "Engineering"]
-    },
-    "item3": {
-      "title": "Tools & Utilities",
-      "desc": "Small utilities/scripts that support day-to-day engineering workflows.",
-      "tags": ["Tools", "Automation"]
-    }
+    "items": [
+      {
+        "id": "hero",
+        "title": "RoboMaster 2024 Hero Robot",
+        "desc": "High-precision launch system, capable of launching 42 mm golf balls to a 20 × 20 cm target at 25 m with a firing rate of 2 Hz. Features an elevating sighting module and integrated laser rangefinder for real-time ballistic computation and compensation.",
+        "tags": ["Robotics", "Mechanical Design", "System Integration", "Rapid Iteration"],
+        "links": {
+          "github": "",
+          "docs": "",
+          "demo": "",
+          "ppt": ""
+        }
+      },
+      {
+        "id": "drone",
+        "title": "RoboMaster 2026 Drone",
+        "desc": "Designed a center-plate-free RoboMaster drone, delivering full 750-round payload at only 25% size and 75% weight versus the 2025 university platform average.",
+        "tags": ["Robotics", "Autonomous Navigation", "Computer Vision"],
+        "links": {
+          "github": "",
+          "docs": "",
+          "demo": "",
+          "ppt": ""
+        }
+      },
+      {
+        "id": "infantry",
+        "title": "RoboMaster 2022 Swerve Infantry Robot",
+        "desc": "Designed and built a swerve-drive infantry robot with a full carbon-fiber structure and in-wheel motors, weighing only 17 kg including battery and referee system.",
+        "tags": ["Robotics", "Combat Robotics", "Mechanical Design"],
+        "links": {
+          "github": "",
+          "docs": "",
+          "demo": "",
+          "ppt": ""
+        }
+      },
+      {
+        "id": "wheelleg",
+        "title": "Wheelleg Balance Robot",
+        "desc": "UIUC ECE Milestone Best Overall Project. Capable of carrying over 3 kg of payload, with STM32F1 and BMI088 IMU, and an integrated DC-DC power system with full circuit protection.",
+        "tags": ["Robotics", "Versatile Mobility", "Mechanical Design"],
+        "links": {
+          "github": "",
+          "docs": "",
+          "demo": "",
+          "ppt": ""
+        }
+      },
+      {
+        "id": "ongoing",
+        "title": "Ongoing Projects",
+        "desc": "Projects currently in progress or under development.",
+        "tags": ["Ongoing", "Development"]
+      },
+      {
+        "id": "gallery",
+        "title": "Project Gallery",
+        "desc": "A collection of project images and highlights.",
+        "tags": ["Gallery", "Showcase"]
+      }
+    ]
   },
   "timeline": {
  "title": "Experience & Education",
