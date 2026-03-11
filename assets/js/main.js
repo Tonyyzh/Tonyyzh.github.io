@@ -61,7 +61,7 @@ function initProjects() {
 
   const projects = [
     { 
-      img: "assets/images/Hero-gen2/hero.jpg",
+      img: "assets/images/hero-gen2/hero.jpg",
       titleKey: "hero-gen2.title", 
       descKey: "hero-gen2.desc",
       tagsKey: "hero-gen2.tags",
@@ -167,31 +167,38 @@ function initOpenSource() {
 function initTimeline() {
   const container = document.querySelector('.timeline-container');
   if (!container) return;
-  container.innerHTML = ''; // 【关键】清空
+  container.innerHTML = '';
 
   const events = [
-    // "timeline.event9",
-    // "timeline.event8", 
-    "timeline.event7", 
-    "timeline.event6", "timeline.event5", "timeline.event4", 
-    "timeline.event3", "timeline.event2", "timeline.event1"
+    "timeline.event1",
+    "timeline.event2",
+    "timeline.event3",
+    "timeline.event4",
+    "timeline.event5",
+    "timeline.event6",
+    "timeline.event7"
   ];
 
   events.forEach(key => {
     const item = document.createElement('div');
     item.className = 'timeline-item';
     item.innerHTML = `
-      <div class="timeline-dot"></div>
-      <span class="timeline-date">${window.i18n.get(`${key}.date`)}</span>
-      <div class="timeline-content">
+      <div class="timeline-date">${window.i18n.get(`${key}.date`)}</div>
+      <div class="timeline-marker">
+        <div class="timeline-dot"></div>
+        <div class="timeline-line"></div>
+      </div>
+      <div class="timeline-card">
         <h3>${window.i18n.get(`${key}.title`)}</h3>
         <p>${window.i18n.get(`${key}.desc`)}</p>
       </div>
     `;
     container.appendChild(item);
   });
-}
 
+  const lastLine = container.querySelector('.timeline-item:last-child .timeline-line');
+  if (lastLine) lastLine.style.display = 'none';
+}
 // // ================= 4. 技术栈渲染 =================
 function initTechStack() {
   const container = document.querySelector('.skills-wrapper');

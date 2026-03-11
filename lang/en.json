@@ -44,7 +44,7 @@
     }
   },
   "hero-gen2": {
-    "title": "RoboMaster: Hero Robot System",
+    "title": "RoboMaster: Hero Robot",
     "desc": "High-precision launch system, capable of launching 42 mm golf balls to a 20 × 20 cm target at 25 m with a firing rate of 2 Hz. Features an elevating sighting module and integrated laser rangefinder for real-time ballistic computation and compensation",
     "links": {
       "github": "Code",
