@@ -80,6 +80,27 @@
       }
     ]
   },
+
+  "opensource": {
+    "title": "Open Source Contributions",
+    "btnCode": "Code",
+    "btnDoc": "Docs",
+  "item1": {
+    "title": "RoboMaster 2024 Hero Robot",
+    "desc": "  ",
+    "tags": ["Robotics", "Mechanical Design", "Open Source"]
+  },
+  "item2": {
+    "title": "RoboMaster 2022 Swerve Infantry Robot",
+    "desc": "RoboMaster 2022 Swerve Infantry Robot",
+    "tags": ["Robotics", "Mechanical Design", "Open Source"]
+  },
+  "item3": {
+    "title": "RoboMaster 2026 Drone",
+    "desc": " ",
+    "tags": ["Robotics", "Mechanical Design", "Open Source"]
+  }
+  },
   "timeline": {
  "title": "Experience & Education",
 
